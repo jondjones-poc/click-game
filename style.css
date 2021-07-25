@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --primary: #000;
+    --background: #12adf9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box{
+    position: relative;
+    border-radius: 50%;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+button{
+    font-size: 1.5rem;
+    margin: 25px;
+    background-color: purple;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    box-shadow: 1em;
+    cursor: pointer;
+}
+
+#winner{
+    color: green;
+}
+
+#loser{
+    color: red;
+}
+
+.results{
+    font-weight: bold;
+}
